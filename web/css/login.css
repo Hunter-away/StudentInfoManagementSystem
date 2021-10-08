@@ -1,0 +1,49 @@
+html,body{
+    margin: auto;
+    padding: 0;
+}
+.login-content{
+    width: 500px;
+    height: 400px;
+    margin: auto;
+    margin-top:12% ;
+    background: burlywood;
+    border-radius: 2%;
+    
+}
+.text{
+    padding:10px 0 10px 0;
+    text-align: center;
+    background:rgb(21, 127, 197);
+}
+.input{
+    background: greenyellow;
+    width: 400px;
+    height: 30px;
+    margin: auto;
+    margin-top: 20px;
+}
+.input > div{
+    font-size: 16px;
+    font-weight: bold;
+}
+input{
+    padding-left: 10px;
+    font-size: 14px;
+    width: 260px;
+    height: 30px;
+    color: gray;
+    border: none;
+    border-color: turquoise;
+    border-radius: 2%;
+    transition: .3s;
+}
+input:hover{
+    height: 38px;
+    width: 290px;
+    border-radius: 3%;
+    border-color: rgb(45, 45, 253);
+}
+input::after{
+    border-color: turquoise;
+}
